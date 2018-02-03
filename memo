@@ -1,0 +1,13 @@
+#modules I need to install
+pip install requests
+pip install beautifulsoup4
+pip install lxml
+
+requests
+  #http get メソッド
+    res = requests.get(url)
+    res.text  > WebページのHTMLデータ
+    res.status_code > レスポンスのステータスコード
+
+
+  
